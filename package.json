@@ -1,0 +1,24 @@
+{
+  "name": "postcss_code_study",
+  "version": "1.0.0",
+  "description": "postcss源码学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuJiaoHJ/postcss_code_study.git"
+  },
+  "author": "hujiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuJiaoHJ/postcss_code_study/issues"
+  },
+  "homepage": "https://github.com/HuJiaoHJ/postcss_code_study#readme",
+  "dependencies": {
+    "autoprefixer": "^9.2.0",
+    "postcss": "^7.0.5",
+    "precss": "^3.1.2"
+  }
+}
