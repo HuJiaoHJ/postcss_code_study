@@ -1,5 +1,5 @@
 const fs = require('fs');
-const postcss = require('postcss');
+const postcss = require('./postcss/lib/postcss');
 const autoprefixer = require('autoprefixer');
 
 fs.readFile('from/app.css', (err, css) => {
