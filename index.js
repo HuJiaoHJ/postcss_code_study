@@ -1,10 +1,9 @@
 const fs = require('fs');
 const postcss = require('postcss');
-const precss = require('precss');
 const autoprefixer = require('autoprefixer');
 
 fs.readFile('from/app.css', (err, css) => {
-    postcss([precss, autoprefixer({
+    postcss([autoprefixer({
         browsers: [
             'last 4 versions',
             '>1%',
