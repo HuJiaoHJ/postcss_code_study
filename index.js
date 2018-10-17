@@ -16,7 +16,7 @@ fs.readFile('from/app.css', (err, css) => {
             from: 'from/app.css',
             to: 'to/app.css',
         }).then(result => {
-            console.log(result);
+            // console.log(result);
             fs.writeFile('to/app.css', result.css, () => true);
             if (result.map) {
                 fs.writeFile('to/app.css.map', result.map, () => true);
